@@ -35,6 +35,7 @@
 #<src>                                                 <mnt_point>               <type>  <mnt_flags and options>                            <fs_mgr_flags>
 /dev/block/bootdevice/by-name/system                    /                        ext4    ro,barrier=1,discard                                 wait,avb
 /dev/block/bootdevice/by-name/vendor                    /vendor                  ext4    ro,barrier=1                                         wait
+/dev/block/bootdevice/by-name/cust                      /system_ext              ext4    ro,noatime,nodev,barrier=1                           wait
 /dev/block/bootdevice/by-name/cache                     /cache                   ext4    nosuid,noatime,nodev,barrier=1                       wait
 /dev/block/bootdevice/by-name/metadata                  /metadata                ext4    noatime,nosuid,nodev,discard                         wait,check,formattable,wrappedkey
 /dev/block/bootdevice/by-name/boot                      /boot                    emmc    defaults                                             defaults
