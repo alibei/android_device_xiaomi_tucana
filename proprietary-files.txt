@@ -1,3 +1,5 @@
+# These proprietary files are extracted from Xiaomi Mi Note 10 (codenamed `tucana`) MIUI V13.0.1.0.RFDMIXM, unless pinned
+
 # ADSP modules
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so
 vendor/lib/rfsa/adsp/libVDHexagonSuperPhoto_skel.so
