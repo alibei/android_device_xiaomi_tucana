@@ -1,0 +1,14 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "CipherOS-devices/android_device_xiaomi_sm6150-common",
+        "target_path":  "device/xiaomi/sm6150-common",
+        "revision":     "twelve-L"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "alibei/android_vendor_xiaomi_tucana",
+        "target_path":  "vendor/xiaomi/tucana",
+        "revision":     "twelve-L"
+    }
+]
