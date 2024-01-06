@@ -96,7 +96,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    TocoWifiOverlay
+    TucanaWifiOverlay
 
 # Call the proprietary setup
-$(call inherit-product, vendor/xiaomi/toco/toco-vendor.mk)
+$(call inherit-product, vendor/xiaomi/tucana/tucana-vendor.mk)
