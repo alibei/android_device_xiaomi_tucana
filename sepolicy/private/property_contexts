@@ -1,5 +1,9 @@
 # Camera
+camera.sensor.frontMain.fuseID     u:object_r:vendor_camera_prop:s0
+camera.sensor.rearMain.fuseID      u:object_r:vendor_camera_prop:s0
+camera.sensor.rearTele.fuseID      u:object_r:vendor_camera_prop:s0
 camera.sensor.rearTele4x.fuseID    u:object_r:vendor_camera_prop:s0
+camera.sensor.rearUltra.fuseID     u:object_r:vendor_camera_prop:s0
 
 # Elliptic ultrasound proximity
 elliptic.ultrasound.               u:object_r:vendor_sensors_prop:s0
