@@ -1,4 +1,4 @@
-# These proprietary files are extracted from Xiaomi Mi Note 10 Lite (codenamed `toco`) MIUI V13.0.6.0.SFNEUXM, unless pinned
+# These proprietary files are extracted from Xiaomi Mi Note 10 (codenamed `tucana`) MIUI V13.0.2.0.RFDMIXM, unless pinned
 
 # Audio ACDB
 vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
@@ -27,6 +27,7 @@ vendor/firmware/tfa98xx.cnt
 -vendor/lib/libaudioparsers.so
 -vendor/lib/libaudioroute_ext.so
 -vendor/lib/libqtigef.so
+-vendor/lib/vndk/libxlog.so
 
 # Audio extensions
 -vendor/lib/btaudio_offload_if.so
@@ -43,29 +44,40 @@ vendor/etc/init/init.batterysecret.rc
 # Camera
 vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/eisoverridesettings.txt
-vendor/etc/camera/morpho_lowlight4.0_3hdr_algoup.xml
-vendor/etc/camera/morpho_lowlight4.0_adrc_high_1_algoup.xml
-vendor/etc/camera/morpho_lowlight4.0_adrc_high_algoup.xml
-vendor/etc/camera/morpho_lowlight4.0_algoup.xml
+vendor/etc/camera/morpho_lowlight4.0.xml
+vendor/etc/camera/morpho_lowlight4.0_3hdr.xml
+vendor/etc/camera/morpho_lowlight4.0_adrc_high.xml
+vendor/etc/camera/morpho_lowlight4.0_adrc_high_1.xml
 vendor/firmware/CAMERA_ICP.elf
--vendor/lib64/camera/com.qti.sensor.toco_gc02m1_macro.so
--vendor/lib64/camera/com.qti.sensor.toco_imx686_wide.so
--vendor/lib64/camera/com.qti.sensor.toco_ov16a10_front.so
--vendor/lib64/camera/com.qti.sensor.toco_ov8856_ultra.so
--vendor/lib64/camera/com.qti.sensor.toco_s5k5e9yx04_depth.so
-vendor/lib64/camera/com.qti.sensormodule.toco_gc02m1_macro.bin
-vendor/lib64/camera/com.qti.sensormodule.toco_imx686_full_wide.bin
-vendor/lib64/camera/com.qti.sensormodule.toco_imx686_wide.bin
-vendor/lib64/camera/com.qti.sensormodule.toco_ov16a10_front.bin
-vendor/lib64/camera/com.qti.sensormodule.toco_ov8856_ultra.bin
-vendor/lib64/camera/com.qti.sensormodule.toco_s5k5e9yx04_depth.bin
+-vendor/lib64/camera/com.qti.sensor.imx350_tucana.so
+-vendor/lib64/camera/com.qti.sensor.ov02a10_tucana.so
+-vendor/lib64/camera/com.qti.sensor.ov08a10_tucana.so
+-vendor/lib64/camera/com.qti.sensor.s5k2l7.so
+-vendor/lib64/camera/com.qti.sensor.s5kgd1_tucana.so
+-vendor/lib64/camera/com.qti.sensor.s5khmx_tucana.so
+vendor/lib64/camera/com.qti.sensormodule.tucana_semco_imx350.bin
+vendor/lib64/camera/com.qti.sensormodule.tucana_semco_ov08a10.bin
+vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5k2l7.bin
+vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5k2l7_v1.bin
+vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5khmx.bin
+vendor/lib64/camera/com.qti.sensormodule.tucana_semco_s5khmx_8plens.bin
+vendor/lib64/camera/com.qti.sensormodule.tucana_sunny_ov02a10.bin
+vendor/lib64/camera/com.qti.sensormodule.tucana_sunny_s5kgd1.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.toco_sunny_gc02m1_macro.bin
-vendor/lib64/camera/com.qti.tuned.toco_sunny_imx686_full_wide.bin
-vendor/lib64/camera/com.qti.tuned.toco_sunny_imx686_wide.bin
-vendor/lib64/camera/com.qti.tuned.toco_sunny_ov16a10_front.bin
-vendor/lib64/camera/com.qti.tuned.toco_sunny_ov8856_ultra.bin
-vendor/lib64/camera/com.qti.tuned.toco_sunny_s5k5e9yx04_depth.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_imx350.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_imx350_global.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_ov08a10.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_ov08a10_global.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_s5k2l7.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_s5k2l7_global.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_s5khmx.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_s5khmx_8plens.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_s5khmx_8plens_global.bin
+vendor/lib64/camera/com.qti.tuned.tucana_semco_s5khmx_global.bin
+vendor/lib64/camera/com.qti.tuned.tucana_sunny_ov02a10.bin
+vendor/lib64/camera/com.qti.tuned.tucana_sunny_ov02a10_global.bin
+vendor/lib64/camera/com.qti.tuned.tucana_sunny_s5kgd1.bin
+vendor/lib64/camera/com.qti.tuned.tucana_sunny_s5kgd1_global.bin
 -vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 -vendor/lib64/camera/components/com.qti.eisv2.so
 -vendor/lib64/camera/components/com.qti.eisv3.so
@@ -79,6 +91,7 @@ vendor/lib64/camera/com.qti.tuned.toco_sunny_s5k5e9yx04_depth.bin
 -vendor/lib64/camera/components/com.qti.node.fcv.so
 -vendor/lib64/camera/components/com.qti.node.gpu.so
 -vendor/lib64/camera/components/com.qti.node.memcpy.so
+-vendor/lib64/camera/components/com.qti.node.mimovie.so
 -vendor/lib64/camera/components/com.qti.node.photosolid.so
 -vendor/lib64/camera/components/com.qti.node.remosaic.so
 -vendor/lib64/camera/components/com.qti.node.stich.so
@@ -115,10 +128,11 @@ vendor/lib64/camera/fdconfigvideolite.bin
 -vendor/lib64/libcamxswprocessalgo.so
 -vendor/lib64/libcamxtintlessalgo.so
 -vendor/lib64/libcom.qti.chinodeutils.so
+-vendor/lib64/libmialgo_basic.so
 -vendor/lib64/libmialgo_fs.so
 -vendor/lib64/libmialgo_rfs.so
 -vendor/lib64/libmialgo_utils.so
--vendor/lib64/libremosaic_daemon.so
+-vendor/lib64/libremosaic_wrapper.so
 -vendor/lib64/libremosaiclib.so
 -vendor/lib64/libtriplecam_optical_zoom_control.so
 
@@ -127,6 +141,7 @@ vendor/etc/camera/almalence_sr_params_tele.config
 vendor/etc/camera/almalence_sr_params_wide.config
 -vendor/lib64/camera/components/com.almalence.node.sr.so
 -vendor/lib64/libHalSuperSensorServer.so
+-vendor/lib64/libHalSuperSensorServerCWrapper.so
 -vendor/lib64/libSuperSensor.so
 -vendor/lib64/libSuperSensorCPU.so
 -vendor/lib64/libalAILDC.so
@@ -135,15 +150,15 @@ vendor/etc/camera/almalence_sr_params_wide.config
 -vendor/lib64/libalhLDC.so
 
 # Camera Altek
-vendor/etc/camera/CFR_para_HD.bin
-vendor/etc/camera/CFR_para_MACRO.bin
-vendor/etc/camera/CFR_para_UW_src1.bin
-vendor/etc/camera/CFR_para_UW_src2.bin
-vendor/etc/camera/CFR_para_W.bin
-vendor/etc/camera/CFR_para_W_src1.bin
-vendor/etc/camera/CFR_para_W_src2.bin
+vendor/etc/camera/CFR_para_T_2x_V03.bin
+vendor/etc/camera/CFR_para_T_4x_V03.bin
+vendor/etc/camera/CFR_para_UW_V01.bin
+vendor/etc/camera/CFR_para_W_V08.bin
 vendor/etc/camera/LDC_FPC_TUNING_DATA.bin
 vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin
+vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
+vendor/etc/camera/LDC_table_src1.dat
+vendor/etc/camera/LDC_table_src2.dat
 -vendor/lib64/camera/components/com.altek.node.depurple.so
 -vendor/lib64/camera/components/com.altek.node.distortioncorrection.so
 
@@ -156,33 +171,40 @@ vendor/etc/camera/eyelineblush.cng
 -vendor/lib64/camera/components/com.altek.node.distortioncorrection.so
 -vendor/lib64/camera/components/com.arcsoft.node.bodyslim.so
 -vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
--vendor/lib64/camera/components/com.arcsoft.node.capturefusion.so
 -vendor/lib64/camera/components/com.arcsoft.node.deflicker.so
 -vendor/lib64/camera/components/com.arcsoft.node.distortioncorrection.so
 -vendor/lib64/camera/components/com.arcsoft.node.hdr.so
--vendor/lib64/camera/components/com.arcsoft.node.hdrchecker.so
+-vendor/lib64/camera/components/com.arcsoft.node.multicam_snapshot_fusion.so
 -vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so
 -vendor/lib64/camera/components/com.arcsoft.node.skinbeautifier.so
--vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so
+-vendor/lib64/camera/components/com.arcsoft.node.smoothtransition.so
 -vendor/lib64/camera/components/com.arcsoft.node.superlowlight.so
--vendor/lib64/libarcsat.so
+-vendor/lib64/camera/components/com.arcsoft.node.superlowlightraw.so
+-vendor/lib64/camera/components/com.arcsoft.node.superportrait.so
+-vendor/lib64/libarcmulticamsat.so
 -vendor/lib64/libarcsoft_beautyshot.so
 -vendor/lib64/libarcsoft_bodyslim.so
 -vendor/lib64/libarcsoft_distortion_correction.so
--vendor/lib64/libarcsoft_dualcam_image_optical_zoom.so
 -vendor/lib64/libarcsoft_dualcam_optical_zoom_control.so
 -vendor/lib64/libarcsoft_dualcam_refocus.so
 -vendor/lib64/libarcsoft_dualcam_refocus_front.so
 -vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so
 -vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so
+-vendor/lib64/libarcsoft_hdr_detection.so
+-vendor/lib64/libarcsoft_hdrplus_hvx_stub.so
+-vendor/lib64/libarcsoft_hdrplus_hvx_stub.so
+-vendor/lib64/libarcsoft_high_dynamic_range.so
+-vendor/lib64/libarcsoft_low_light_hdr.so
 -vendor/lib64/libarcsoft_portrait_lighting.so
 -vendor/lib64/libarcsoft_portrait_lighting_c.so
 -vendor/lib64/libarcsoft_preview_deflicker.so
+-vendor/lib64/libarcsoft_super_night_raw.so
 -vendor/lib64/libarcsoft_supernight.so
--vendor/lib64/libhvx_interface.so
+-vendor/lib64/libarcsoft_superportrait.so
+-vendor/lib64/libhta_hexagon_runtime.so
 -vendor/lib64/libmpbase.so
--vendor/lib64/libtriplecam_video_optical_zoom.so
--vendor/lib64/libxmi_high_dynamic_range.so
+-vendor/lib64/libmulticam_image_optical_zoom.so
+-vendor/lib64/libmulticam_video_optical_zoom.so
 
 # Camera Visidon
 -vendor/lib64/camera/components/com.visidon.node.clearshot.so
@@ -197,11 +219,8 @@ vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 -vendor/lib64/libvidhance.so
 
 # Camera Xiaomi
-#vendor/lib64/libSNPE.so
-vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/mibokeh_712_opencl.bin
 vendor/etc/camera/mibokeh_712_parameter.bin
-vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 -vendor/lib64/camera/components/com.mi.node.aiasd.so
 -vendor/lib64/camera/components/com.qti.node.watermark.so
 -vendor/lib64/camera/components/com.qti.node.xiaomigenderage.so
@@ -209,17 +228,22 @@ vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
 -vendor/lib64/camera/components/com.xiaomi.node.mifragment.so
 -vendor/lib64/camera/components/com.xiaomi.node.misegment.so
 -vendor/lib64/libFaceGrade.so
+-vendor/lib64/libSNPE.so
 -vendor/lib64/libXMFD_AgeGender.so
 -vendor/lib64/libc++_shared.so
+-vendor/lib64/libcamera_dirty.so
 -vendor/lib64/libcamera_scene.so
+-vendor/lib64/libdng_sdkvendor.so
 -vendor/lib64/libft2vendor.so
 -vendor/lib64/libmialgo_sd.so
 -vendor/lib64/libmibokeh_712.so
+-vendor/lib64/libsymphony-cpu.so
 
 # DRM
 -vendor/lib64/liboemcrypto.so
 
 # Fingerprint
+-vendor/lib64/hw/fingerprint.fpc_fod.so:vendor/lib64/hw/fingerprint.fpc_fod.sm6150.so
 -vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.sm6150.so
 -vendor/lib64/libgf_hal.so
 
