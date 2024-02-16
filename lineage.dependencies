@@ -1,6 +1,14 @@
 [
   {
-    "repository": "android_device_xiaomi_sm6150-common",
+    "remote": "github",
+    "repository": "alibei/android_device_xiaomi_sm6150-common",
     "target_path": "device/xiaomi/sm6150-common"
+    "revision": "lineage-21"
   }
+  {
+    "remote": "gitlab",
+    "repository": "alibei/android_vendor_xiaomi_tucana",
+    "target_path": "vendor/xiaomi/tucana",
+    "revision": "fourteen"
+  },
 ]
