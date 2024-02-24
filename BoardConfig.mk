@@ -51,5 +51,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
 TARGET_USES_FOD_ZPOS := true
 
+# Inherit from tucana-miuicamera
+include vendor/xiaomi/tucana-miuicamera/products/board.mk
+
 # Inherit from proprietary files
 include vendor/xiaomi/tucana/BoardConfigVendor.mk

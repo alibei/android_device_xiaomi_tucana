@@ -100,5 +100,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     TucanaWifiOverlay
 
+# Inherit from tucana-miuicamera
+$(call inherit-product, vendor/xiaomi/tucana-miuicamera/products/miuicamera.mk)
+
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/tucana/tucana-vendor.mk)

@@ -11,4 +11,10 @@
     "target_path": "vendor/xiaomi/tucana",
     "revision": "fourteen"
   },
+  {
+    "remote": "gitlab",
+    "repository": "alibei/android_vendor_xiaomi_tucana-miuicamera",
+    "target_path": "vendor/xiaomi/tucana-miuicamera",
+    "revision": "fourteen"
+  },
 ]
